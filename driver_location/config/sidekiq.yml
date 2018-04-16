@@ -1,0 +1,5 @@
+---
+:pidfile: ./tmp/pids/sidekiq.pid
+:concurrency: 2
+:queues:
+  - [ consumer_queue, 1 ]
